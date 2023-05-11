@@ -57,7 +57,7 @@ print("\n\n !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n\n")
 
 # Add selection text in here for the four choices
 
-print("I wouldn't do that or would I?")
+print("a - I wouldn't do that or would I?")
 print("Hmmm? I don't know?")
 print("c - Ok, not a bad option.")
 print("d - Take my advice, turn back.")
