@@ -92,9 +92,10 @@ else:
 
 #advising
 
-Print("The next step is advising, you are almost there Mr or Misses Traveler. Fortunately you get an advisor to help you with the rest of your journey.")
-advisor = int(input("pick a number between 1 & 4 please:"))
+#Print("The next step is advising, you are almost there Mr or Misses Traveler. Fortunately you get an advisor to help you with the rest of your journey.")
+#advisor = int(input("pick a number between 1 & 4 please:"))
 #the user picks a random number and that reflects their advisor
 #we said dog, donkey, fish bowl
+print("This is all we have for you traveler, wait here while the program buffers........")
 
 
