@@ -8,6 +8,18 @@ from  adventureFunctions import *
 print("help me")
 # Ev code
 yn = "n"
+print()
+
+print()
+
+print()
+print ("test")
+
+print()
+
+print()
+
+print()
 while yn == "n" or yn == "N":
   print ("Helo odd little traveler. you are about to embark on a perilous adventure in which you will choose your destiny. First.... Who are you")
   print()
