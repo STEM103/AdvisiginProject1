@@ -1,10 +1,11 @@
+# These are our functions
 import random
 from  adventureFunctions import *
 # 
 #animal guides - donkey, fish in a fishbowl, dog 
 #
 # the character selection should have some form of function or definition attatched to it that would have some impact to the role playing sence. IE the warior uses his great sword to open the door or the rouge would use his skills to open the locked door
-
+print("help me")
 # Ev code
 yn = "n"
 while yn == "n" or yn == "N":
