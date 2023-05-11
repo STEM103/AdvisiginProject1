@@ -8,6 +8,8 @@ from  adventureFunctions import *
 print("help me")
 # Ev code
 yn = "n"
+print()
+
 while yn == "n" or yn == "N":
   print ("Helo odd little traveler. you are about to embark on a perilous adventure in which you will choose your destiny. First.... Who are you")
   print()
@@ -34,17 +36,16 @@ while yn == "n" or yn == "N":
   elif choice == "D" or choice == "d":
     print ("D - The Wise Elder: With a long white beard and piercing eyes, the wise elder is a font of knowledge and guidance. They have seen much in their long life and have many stories to tell. Though frail in body, their mind is sharp and their spirit unbroken. \nAre you certain?")
   elif choice == "E" or choice == "e":
-    print ("E - Dylan the obnoxious bard: A wiley and charasmatic character that has been baned from more establishments than he patroned. His prowess with alcohol is matched only by his skill with maracas. He has no concept of personal space, boundries or, taste. \nAre you certain?")  
+    print ("E - Dylan the obnoxious bard: A wiley and charasmatic character that has been baned from more establishments than he patroned. His prowess with alcohol is matched only by his skill with maracas. He has no concept of personal space, boundries or, taste. \n\nAre you certain?")  
   else: anger()
   
   
   yn = input()
   if yn=='y' or yn=="Y":
     print ("Very well. Then procede")
-  else: anger()
-while yn == "n" or yn == "N":
-  print ("well then be more certain than that.")
-
+  while yn == "n" or yn == "N":
+    print ("well then be more certain than that.")
+    yn = input()
 
 
 #this should not work with a sure regardless need a method to recurve to the top and restart the questions
@@ -55,12 +56,7 @@ print("\n\n !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n\n")
 
 # Nev 
 
-# Add selection text in here for the four choices
 
-print("a - I wouldn't do that or would I?")
-print("b - Hmmm? I don't know?")
-print("c - Ok, not a bad option.")
-print("d - Take my advice, turn back.")
 
 Path2Takeoutput()
 
